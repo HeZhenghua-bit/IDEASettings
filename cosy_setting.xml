@@ -1,0 +1,56 @@
+<application>
+  <component name="CosySettings">
+    <option name="parameter">
+      <ChangeUserSettingParams>
+        <option name="allowReportUsage" value="true" />
+        <option name="cloud">
+          <CloudModelParam>
+            <option name="autoTrigger">
+              <CloudModelAutoTrigger>
+                <option name="enable" value="true" />
+                <option name="generateLength" value="level_2" />
+                <option name="modelLevel" value="large" />
+              </CloudModelAutoTrigger>
+            </option>
+            <option name="enable" value="true" />
+            <option name="manualTrigger">
+              <CloudModelManualTrigger>
+                <option name="generateLength" value="level_2" />
+                <option name="modelLevel" value="large" />
+              </CloudModelManualTrigger>
+            </option>
+          </CloudModelParam>
+        </option>
+        <option name="local">
+          <LocalModelParam>
+            <option name="enable" value="false" />
+            <option name="inferenceMode" value="auto" />
+            <option name="maxCandidateNum" value="3" />
+          </LocalModelParam>
+        </option>
+      </ChangeUserSettingParams>
+    </option>
+    <option name="recentQueries">
+      <map>
+        <entry key="fineone-shelterbelt|1627557597507622">
+          <value>
+            <list>
+              <option value="/generate optimization" />
+              <option value="使用Map减少条件判断：通过定义一个Map&lt;String, ServiceInterface&gt;将menuRecNo字符串与相应的服务进行映射，减少了多个if-else语句，提高了代码的查找效率和可维护性" />
+              <option value="/explain code" />
+              <option value="/generate comment" />
+              <option value="判空" />
+              <option value="listResult对这里面的createDate&#10;: &#10;&quot;2024-04-11 16:21:47&quot;这个字段排序的时候时间最新的在前面" />
+              <option value="我想用stream流实现" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="showInlineAcceptTips" value="false" />
+    <option name="showInlineCancelTips" value="false" />
+    <option name="showInlineNextTips" value="false" />
+    <option name="showInlinePrevTips" value="false" />
+    <option name="showInlineTriggerTips" value="false" />
+  </component>
+</application>
